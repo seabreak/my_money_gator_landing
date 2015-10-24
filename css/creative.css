@@ -480,6 +480,29 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222;
 }
+#about {
+  position: relative;
+}
+#about p{
+  margin-bottom: 5px;
+}
+
+#about .col-md-4{
+  margin-bottom: 20px;
+}
+
+#about ul#about-list{
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+#about img#transaction-box{
+  position: absolute;
+  bottom: 0px;
+  left: 850px;
+}
 
 #contact p.social-icons{
   font-size: 3em;
