@@ -587,3 +587,23 @@ body {
     display: block;
     font-size: 1.5em;
 }
+
+div#faq-list{
+  background-color: rgba(255,255,255,1);
+  color: #333;
+  text-align: left;
+  padding: 20px 30px;
+}
+
+div#faq-list div.question{
+  border-bottom: solid 1px #cfcfcf;
+}
+
+div#faq-list div.question:last-child{
+  border-bottom: none;
+}
+
+div#faq-list div.question p,
+div#faq-list div.question ul{
+  font-size: .9em;
+}
